@@ -1,4 +1,7 @@
 # Workout Tracker API
+## General Structure
+Exercises are created as templates, followed by the creation of sets, which contain logs of exercises. Each of those
+three concepts are held within their respective tables in the database.
 ## Routes
 ### GET /workouts
     Returns JSON:

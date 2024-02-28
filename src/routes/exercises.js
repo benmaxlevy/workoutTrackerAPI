@@ -5,3 +5,5 @@ const express = require("express"),
 
 // get body parser going
 exercisesRouter.use(bodyParser.urlencoded({ extended: false }));
+
+// get exercises
